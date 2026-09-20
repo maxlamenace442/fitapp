@@ -1,0 +1,20 @@
+{
+  "name": "fitplan-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FitPlan mobile app powered by Capacitor",
+  "scripts": {
+    "web": "npx serve www",
+    "cap:sync": "npx cap sync",
+    "android:add": "npx cap add android",
+    "android:open": "npx cap open android",
+    "android:run": "npx cap run android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/android": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
